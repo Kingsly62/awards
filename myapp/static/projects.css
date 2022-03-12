@@ -15,3 +15,32 @@
     background-color: antiquewhite;
     height: 100vh;
 }
+
+
+p{
+    color: red;
+    top: 2%;
+    position: absolute;
+    margin-left: 60%;
+    font-size: 20px;
+}
+
+nav ul li{
+cursor: pointer;
+color: burlywood;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.link{
+    top: 20%;
+    position: absolute;
+    height: 30vh;
+    width: 80vw;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}

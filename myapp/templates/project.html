@@ -23,7 +23,7 @@
           <div class="text-white h5">
             <nav>
               <ul>
-                <li>Home</li>
+                <li><a href="{% url 'home'%}">Home</a></li>
                 <li>Tesla-Tech Awards</li>
                 <li>Contact-Us</li>
               </ul>
@@ -46,6 +46,22 @@
           </button>
         </div>
       </nav>
+      <p>Welcome {{user.username}}</p>
+
+      <div class="link">
+        {% for story in stories %}
+        <h2>{{story.title}}</h2>
+        <h3>
+          Published At:- {{story.created_at}} Last Update:- {{story.updated_at}}
+        </h3>
+
+        <p>{{story.body}}</p>
+
+        <h3>By:- {{story.author}}</h3>
+        <br /><br />
+
+        {% endfor %}
+      </div>
     </div>
     <div class="container1"></div>
     <script src="" async defer></script>

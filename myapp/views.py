@@ -16,6 +16,8 @@ from django.contrib.auth import (
     login,
     logout
 )
+from .models import *
+from .models import *
 
 from .forms import UserLoginForm, UserRegisterForm
 
@@ -29,7 +31,14 @@ def home(request):
 
 
 def projects(request):
-    return render(request, 'project.html')
+    
+    story=Article.objects.all()
+
+    context={
+        'stories':story,
+    }
+
+    return render(request, 'project.html',context)
 
 def login_view(request):
     next = request.GET.get('next')
