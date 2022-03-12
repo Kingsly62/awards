@@ -1,7 +1,4 @@
-h1{
-    color: olivedrab;
 
-}
 
 .container{
     background-image: url('https://img.freepik.com/free-vector/black-background-with-podium-golden-circle_1017-31891.jpg?w=900');
@@ -12,4 +9,9 @@ h1{
     background-position-y: center;
     background-position-x: center;
     
+}
+
+.container1{
+    background-color: antiquewhite;
+    height: 100vh;
 }
