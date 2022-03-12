@@ -27,6 +27,10 @@ from .forms import UserLoginForm, UserRegisterForm
 def home(request):
     return render(request, 'home.html')
 
+
+def projects(request):
+    return render(request, 'project.html')
+
 def login_view(request):
     next = request.GET.get('next')
     form = UserLoginForm(request.POST or None)
@@ -37,7 +41,7 @@ def login_view(request):
         login(request, user)
         if next:
             return redirect(next)
-        return redirect('/')
+        return redirect('projects')
 
     context = {
         'form': form,
