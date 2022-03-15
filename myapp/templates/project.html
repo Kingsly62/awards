@@ -51,11 +51,14 @@
       <div class="link">
         {% for story in stories %}
         <h2>{{story.title}}</h2>
+        <br />
         <h3>
           Published At:- {{story.created_at}} Last Update:- {{story.updated_at}}
         </h3>
+        <br />
 
         <p>{{story.body}}</p>
+        <br />
 
         <h3>By:- {{story.author}}</h3>
         <br /><br />
