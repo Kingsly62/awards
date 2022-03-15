@@ -47,7 +47,7 @@
         </div>
       </nav>
       <p>Welcome {{user.username}}</p>
-      <h4><a href="">Logout</a></h4>
+      <h4><a href="{% url 'home'%}">Logout {{user.email}}</a></h4>
       <div class="link">
         {% for story in stories %}
         <h2>{{story.title}}</h2>
@@ -77,3 +77,12 @@
     ></script>
   </body>
 </html>
+
+<style>
+  h4 a {
+    margin-left: 80%;
+    top: 2%;
+    position: absolute;
+    color: blue;
+  }
+</style>
