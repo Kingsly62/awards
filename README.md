@@ -45,9 +45,9 @@ Get started:https://github.com/Kingsly62/Instagram
 
 In your terminal:
 
-- Link to clone:https://github.com/Kingsly62/Instagram
+- Link to clone:https://github.com/Kingsly62/awards
 - $ git clone
-- $ cd Instagram
+- $ cd awards
 
 ### Running the Application
 
