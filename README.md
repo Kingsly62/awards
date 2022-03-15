@@ -1,10 +1,10 @@
-# Instagram Photo Gallerly
+# Tesla-Tech Awards
 
 ## Built By Clinton Kioge
 
 ### Description
 
-Instagram Photo Gallery Application is a platform that allows users to create authenitication acccount to prompted to intearact with the application ,view , like , dislike and comment on the images , from your computer or smartphone
+Tesla-Tech Application is a platform that allows users to create authenitication acccount to prompted to intearact with the application upload a website ,view , like , dislike and comment on webite.
 
 ### User Stories
 
@@ -17,16 +17,16 @@ These are the behaviours/features that the application implements for use by a u
 
 ### Link to my Github Account(project)
 
-Get started:https://github.com/Kingsly62/Instagram
+Get started:https://github.com/Kingsly62/awards
 
 ### Heroku live link to my website
 
-[Click](https://instagram-clinton.herokuapp.com/)
+[Click]()
 
 ### Test Instances For the Application(app)
 
 - $ python3 -m venv virtual
-- $ python3 manage.py test instagram
+- $ python3 manage.py test award
 
 ### SetUp / Installation Requirements
 
@@ -70,7 +70,7 @@ To run the application, in your terminal:
 ### Technologies Used
 
 - Pure Python3.9
-- Flask (Python Micro framework)
+- Django (Python Micro framework)
 - Vanilla JavaScript
 - Bootstrap5
 
