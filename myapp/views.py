@@ -39,7 +39,8 @@ from .models import Task
 
 def home(request):
     return render(request, 'home.html')
-
+def list(request):
+    return render(request, 'list.html')
 
 def contact(request):
     return render(request, 'contact.html')
