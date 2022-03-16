@@ -26,7 +26,7 @@ Get started:https://github.com/Kingsly62/awards
 ### Test Instances For the Application(app)
 
 - $ python3 -m venv virtual
-- $ python3 manage.py test award
+- $ python3 manage.py test myapp
 
 ### SetUp / Installation Requirements
 
