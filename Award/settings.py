@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp.apps.MyappConfig',
+    'rest_framework.authtoken',
+
     'rest_framework'
 ]
 
@@ -65,6 +67,15 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Award.urls'
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+    )
+}
+
+
 
 TEMPLATES = [
     {
