@@ -85,3 +85,6 @@ def register_view(request):
 
 def list(request):
 	return render(request, 'list.html')
+
+def welcome(request):
+    return render(request, 'welcome.html')
